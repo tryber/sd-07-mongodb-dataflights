@@ -1,0 +1,1 @@
+db.getCollection("voos").find({ litrosCombustivel: { $exists: true, $lt: 600 }, "empresa.nome": { $nin: ["GOL", "AZUL"] } }, { vooId: true, _id: 0, litrosCombustivel: true, "empresa.nome": true }).limit(1);

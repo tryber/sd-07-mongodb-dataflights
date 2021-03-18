@@ -1,0 +1,1 @@
+db.voos.find({ "empresa.nome": "GOL", ano: 2017 }, { vooId: true, "empresa.nome": true, "aeroportoOrigem.nome": true, "aeroportoDestino.nome": true, mes: true, ano: 1, _id: 0 }).limit(10);
