@@ -22,11 +22,12 @@
     "extends": "react-app"
   },
   "devDependencies": {
+    "electron": "^12.0.1",
     "eslint": "6.8.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-sonarjs": "^0.5.0",
     "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-mongodb": "^1.0.0"
+    "eslint-plugin-mongodb": "^1.0.0",
+    "eslint-plugin-sonarjs": "^0.5.0"
   }
 }
